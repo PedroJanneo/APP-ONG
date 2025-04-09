@@ -22,16 +22,5 @@ export const styles = StyleSheet.create({
         top: 40,
         right: 20,
     },
-    containerVazio: {
-        flex: 1,
-        borderColor: '#000',
-        borderRadius: 10,
-    },
-    textoVazio: {
-        fontSize: 20,
-        color: '#000',
-        textAlign: 'center',
-        marginTop: 20,
-    },
 
 })

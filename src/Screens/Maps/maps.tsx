@@ -19,11 +19,8 @@ export const Maps = () => {
 
       <Image source={maps} style={styles.mapa} resizeMode="contain" />
 
-
-
       <TouchableOpacity style={styles.buttonMaps}>
         <Text style={styles.textButton}>Solicitar entrega</Text>
-
       </TouchableOpacity>
     </View>
   );

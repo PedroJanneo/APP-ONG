@@ -14,6 +14,7 @@ export const styles = StyleSheet.create({
   mapa: {
     width: "100%",
     height: "100%",
+    top: -100,
   },
   container: {
     flex: 1,

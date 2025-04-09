@@ -34,7 +34,7 @@ export const Home = () => {
         />
       </TouchableOpacity>
 
-    <TouchableOpacity style={styles.icons}>
+    <TouchableOpacity style={styles.icons} onPress={() => router.navigate("/calendar")}>
       <FontAwesome5
         name="calendar-alt"
         size={50}
