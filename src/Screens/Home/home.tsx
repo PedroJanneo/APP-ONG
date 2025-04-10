@@ -42,7 +42,7 @@ export const Home = () => {
         
       />
       </TouchableOpacity>
-    <TouchableOpacity style={styles.icons}>
+    <TouchableOpacity style={styles.icons} onPress={() => router.navigate("/cadastro")}>
       <MaterialCommunityIcons
         name="notebook"
         size={50}
